@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "475307510856",
+    "firebase_url": "https://aus-guide.firebaseio.com",
+    "project_id": "aus-guide",
+    "storage_bucket": "aus-guide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475307510856:android:e303554221c1564f7a9c7d",
+        "android_client_info": {
+          "package_name": "com.ahmed.mentor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475307510856-sohfrane5su0g2h8mriflvq07tofgvd3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIPA93JkauZCHr9evkSy98DY0YLsRXHk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475307510856-sohfrane5su0g2h8mriflvq07tofgvd3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475307510856:android:f46434fcb2c5758e7a9c7d",
+        "android_client_info": {
+          "package_name": "com.ahmed.mentor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475307510856-sohfrane5su0g2h8mriflvq07tofgvd3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIPA93JkauZCHr9evkSy98DY0YLsRXHk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475307510856-sohfrane5su0g2h8mriflvq07tofgvd3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

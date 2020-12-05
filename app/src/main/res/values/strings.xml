@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mentor</string>
+    <string name="title_activity_final">FinalActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="Mentor">Mentor</string>
+    <string name="Account">Account</string>
+    <string name="Interests">Interests</string>
+</resources>

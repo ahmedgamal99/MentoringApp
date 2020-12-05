@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "847460328110",
+    "firebase_url": "https://mentor-e744b.firebaseio.com",
+    "project_id": "mentor-e744b",
+    "storage_bucket": "mentor-e744b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847460328110:android:bb96f5d9ef94dfe47b433f",
+        "android_client_info": {
+          "package_name": "com.ahmed.mentor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847460328110-8jl3qq20velf28jnufd7s8pcnsrbvrn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Z8_ZsuLg5jZFiGX94Aa1i_2hKvsas5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847460328110-8jl3qq20velf28jnufd7s8pcnsrbvrn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

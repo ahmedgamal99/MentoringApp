@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thirdFragment" >
+
+    <TextView
+        android:id="@+id/InterestTV"
+        android:layout_width="394dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="266dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Pick Your Interests!" />
+
+    <SeekBar
+        android:id="@+id/sportsSB"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="298dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="25dp"
+        android:max="5"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sportsTV"
+        app:layout_constraintTop_toBottomOf="@+id/InterestTV" />
+
+    <TextView
+        android:id="@+id/sportsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="43dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InterestTV"
+        tools:text="Sports" />
+
+    <TextView
+        android:id="@+id/musicTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sportsTV"
+        tools:text="Music" />
+
+    <SeekBar
+        android:id="@+id/musicSB"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="298dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="25dp"
+        android:max="5"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/musicTV"
+        app:layout_constraintTop_toBottomOf="@+id/sportsSB" />
+
+    <TextView
+        android:id="@+id/videoGamesTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musicTV"
+        tools:text="Video Games" />
+
+    <TextView
+        android:id="@+id/tvshowsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoGamesTV"
+        tools:text="TV Shows" />
+
+    <TextView
+        android:id="@+id/boardGamesTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/boardGamesSB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvshowsTV"
+        tools:text="Board Games" />
+
+    <TextView
+        android:id="@+id/cookingTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boardGamesTV"
+        tools:text="Cooking" />
+
+    <TextView
+        android:id="@+id/readingTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cookingTV"
+        tools:text="Reading" />
+
+    <TextView
+        android:id="@+id/artTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/readingTV"
+        tools:text="Art" />
+
+    <SeekBar
+        android:id="@+id/videoGamesSB"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="258dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="22dp"
+        android:max="5"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/videoGamesTV"
+        app:layout_constraintTop_toBottomOf="@+id/musicSB" />
+
+    <SeekBar
+        android:id="@+id/tvShowsSB"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="261dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="20dp"
+        android:max="5"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvshowsTV"
+        app:layout_constraintTop_toBottomOf="@+id/videoGamesSB" />
+
+    <SeekBar
+        android:id="@+id/boardGamesSB"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="265dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="16dp"
+        android:max="5"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/boardGamesTV"
+        app:layout_constraintTop_toBottomOf="@+id/tvShowsSB" />
+
+    <SeekBar
+        android:id="@+id/cookingSB"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="287dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="14dp"
+        android:max="5"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cookingTV"
+        app:layout_constraintTop_toBottomOf="@+id/boardGamesSB" />
+
+    <SeekBar
+        android:id="@+id/readingSB"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="288dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="13dp"
+        android:max="5"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/readingTV"
+        app:layout_constraintTop_toBottomOf="@+id/cookingSB" />
+
+    <SeekBar
+        android:id="@+id/artSB"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="286dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="50dp"
+        android:max="5"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/artTV"
+        app:layout_constraintTop_toBottomOf="@+id/readingSB" />
+
+    <Button
+        android:id="@+id/submitBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="214dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/artSB"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Submit" />
+</androidx.constraintlayout.widget.ConstraintLayout>
